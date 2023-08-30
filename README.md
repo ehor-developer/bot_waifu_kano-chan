@@ -17,13 +17,16 @@ console.log(`Ehor.の彼女は ${ehor_girl_friend}`)
 
 かのちゃんBOTはDiscordのDMでの会話のみ反応します。
 
-また、`she.py`を実行する前にDiscord BOTとOpenAIのAPIが必要なので
+また、`she.py`を実行する前に
+
+Discord BOTとOpenAIのAPIと自発的にDMするには自分のユーザーIDが必要なので
 
 `.env`に、以下を定義してください。
 
 ```
 DISCORD_API_KEY=XXXXXXXXXXXXXXXXXXXXXXXX
 OPENAI_API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXX
+DISCORD_DM_USER=DiscordのユーザーID
 ```
 
 定義ができたら`she.py`を実行してください。
@@ -31,3 +34,5 @@ OPENAI_API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXX
 そして指定したAPIのDiscord BOTにDMで話しかけてみてください。
 
 そうすると入力中と表示され、メッセージが送信されたら成功です！
+
+またユーザーIDを入力すると、ランダムな時間に1日3回送られてきます。
