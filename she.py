@@ -23,8 +23,7 @@ async def generate_random_times():
         minute = random.randint(0, 59)
         random_times.append(f"{hour:02d}:{minute:02d}")
     return random_times
-# scheduled_times = generate_random_times()
-scheduled_times = ["14:25", "14:27", "14:29"]
+scheduled_times = generate_random_times()
 
 
 async def generate_response(prompt, content):
