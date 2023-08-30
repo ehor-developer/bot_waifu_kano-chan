@@ -5,3 +5,4 @@ load_dotenv()  # .env ファイルから環境変数を読み込む
 
 discord_api_key = os.getenv("DISCORD_API_KEY")
 openai_api_key = os.getenv("OPENAI_API_KEY")
+discord_dm_user = os.getenv("DISCORD_DM_USER")
